@@ -1,0 +1,18 @@
+.card .bottom-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.bottom-container button {
+  margin-bottom: 4%;
+  margin-right: 4%;
+  width: 2rem;
+  height: 2rem;
+  background-color: #0b032d;
+  color: #f5f7fa;
+  border: 1px solid #f5f7fa;
+  text-align: center;
+}
