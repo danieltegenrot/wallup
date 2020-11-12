@@ -1,0 +1,71 @@
+.total-price {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.total {
+  margin-left: 1rem;
+}
+
+.checkout-button {
+  width: 6.5rem;
+  height: 2.5rem;
+  background-color: #0b032d;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.checkout {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0); /* Black w/ opacity */
+}
+
+.checkout-content {
+  background-color: #0b032d;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: none;
+  width: 20%; /* Could be more or less, depending on screen size */
+  height: 35%;
+  overflow: auto; /* Enable scroll if needed */
+}
+
+@media only screen and (max-width: 1400px) {
+  .checkout-content {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .total {
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .total-price {
+    font-size: 0.9rem;
+  }
+
+  .checkout-content {
+    width: 65%;
+    height: 62%;
+    margin: 10% auto;
+  }
+}

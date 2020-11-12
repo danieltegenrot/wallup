@@ -16,3 +16,10 @@
   border: 1px solid #f5f7fa;
   text-align: center;
 }
+
+.popup {
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+}

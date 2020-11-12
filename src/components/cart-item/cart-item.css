@@ -1,0 +1,65 @@
+.thumb {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.thumb-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.thumb-container p {
+  color: black;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
+  margin-left: 10px;
+}
+
+.cart-item {
+  border: none;
+  width: 200px; /* Could be more or less, depending on screen size */
+  height: 200px;
+  visibility: visible;
+}
+
+/* Close Button */
+.close-item {
+  color: black;
+  position: relative;
+  float: right;
+  right: 50px;
+  top: 32px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.close-item:hover,
+.close-item:focus {
+  color: #555;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* phone */
+@media only screen and (max-width: 700px) {
+  .thumb {
+    width: 75px;
+    height: 75px;
+  }
+
+  .close-item {
+    right: 25px;
+  }
+
+  .cart-item {
+    width: 100px;
+    height: 100px;
+  }
+}
